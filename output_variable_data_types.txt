@@ -1,0 +1,16 @@
+List of variables and their data types:
+Poster: object
+Title: object
+Year: float64
+Certificate: object
+Duration (min): float64
+Genre: object
+Rating: float64
+Metascore: float64
+Director: object
+Cast: object
+Votes: object
+Description: object
+Review Count: object
+Review Title: object
+Review: object

@@ -1,0 +1,27 @@
+GitHub Copilot
+Sure, here's a step-by-step plan and the corresponding Python script to read an IMDb movies dataset CSV file and print the list of all variables (columns) along with their data types:
+
+Plan
+Import the necessary libraries (pandas).
+Read the CSV file into a DataFrame.
+Print the list of columns and their data types.
+
+import pandas as pd
+
+# Replace 'path_to_your_file.csv' with the actual path to your IMDb dataset CSV file
+file_path = 'path_to_your_file.csv'
+
+# Read the CSV file into a DataFrame
+df = pd.read_csv(file_path)
+
+# Print the list of columns and their data types
+print("Columns and their data types:")
+print(df.dtypes)
+
+
+Code
+Instructions
+Make sure you have pandas installed. If not, you can install it using pip install pandas.
+Replace 'path_to_your_file.csv' with the actual path to your IMDb dataset CSV file.
+Run the script.
+This script will output the list of columns in the dataset along with their data types.
